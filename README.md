@@ -5,14 +5,14 @@ Landing page responsiva construida con HTML y CSS. Su diseño moderno de una sol
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5  
 - CSS3 (Flexbox y Media Queries)
 
 ---
 
-## 📱 Características
+## Características
 
 - Diseño completamente responsive  
 - Navegación suave dentro de la misma página  
@@ -21,11 +21,11 @@ Landing page responsiva construida con HTML y CSS. Su diseño moderno de una sol
 
 ---
 
-## 📸 Vista previa
+## Vista previa
 ![image](https://github.com/user-attachments/assets/f84c9d4e-91e7-48cb-8355-fded862fb813)
 ---
 
-## 🚀 Cómo usar
+## Cómo usar
 
 1. Cloná el repositorio:
 ```bash
