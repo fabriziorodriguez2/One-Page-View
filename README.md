@@ -31,4 +31,4 @@ Landing page responsiva construida con HTML y CSS. Su diseño moderno de una sol
 ```bash
 git clone https://github.com/fabriziorodriguez2/One-Page-View.git
 ```
-2.Abrí el archivo index.html en tu navegador
+  2.Abrí el archivo index.html en tu navegador
