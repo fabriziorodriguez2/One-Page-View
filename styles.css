@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    --bg-color: #536845;
+    --chat-bg-color: #333;
+    --dark-color: rgb(20, 177, 117);
+    height: 200dvh;
+    background-image: url("fondo.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+body, div, ul, li, a, h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: difference;
+}
+
+.text-container{
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    font-size: clamp(1rem, 5vw, 10rem);
+    color: #444;
+    mix-blend-mode: darken;
+    font-weight: 700;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 3vw;
+    mix-blend-mode: darken;
+    animation: appear-text both;
+    animation-timeline: scroll();
+    animation-range-start: cover 20%;
+    mix-blend-mode: difference;
+}
+
+.left-text{
+    color: var(--dark-color);
+    padding-left: 7vw;
+}
+
+.left-text{
+    filter: drop-shadow(0px 0px 1px var(--dark-color))
+    drop-shadow(0px 0px 9px var(--dark-color));
+    font-weight: 800;
+
+}
+
+.rigth-text{
+    font-weight: 800;
+}
+img{
+    mix-blend-mode: darken;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    animation: appear both;
+    animation-timeline: scroll();
+    max-height: 100vh;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        filter: grayscale();
+        translate: 0 -20%;
+        scale: .7;
+    }
+    100%{
+        opacity: 1;
+        filter: grayscale();
+        translate: 0 0;
+        scale: 1;
+    }
+}
+
+@keyframes appear-text{
+    0%{
+        opacity: 0;
+        translate: 0 20%;
+        scale: 2;
+    }
+    100%{
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
